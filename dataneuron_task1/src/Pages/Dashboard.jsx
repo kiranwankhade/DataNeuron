@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Resizable, ResizableBox } from "react-resizable";
-
 import "./Style.css";
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 
@@ -11,7 +10,7 @@ const Dashboard = () => {
         { width: 300, height: 200 },
       ]);
     
-      const [value, setValue] = useState('');
+      const [value, setValue] = useState('');  //Value of Box 2
     
       const onClickBtn = () => {
         setState([
