@@ -86,4 +86,14 @@ npm run start
 Once the project is running locally, you can access this in your web browser. 
 
 
-##Screens of Project:
+## Screens of Project:
+### Task-1
+![DataNeuronTask1](https://github.com/kiranwankhade/DataNeuron/assets/49937312/21e452e1-ae19-48fa-ac02-7ebabe7f52bf)
+
+![DataNeuronTask2](https://github.com/kiranwankhade/DataNeuron/assets/49937312/be1f4035-37d3-4ae4-a9be-090806cfefbf)
+
+
+### Task-2
+![DataNeuron1](https://github.com/kiranwankhade/DataNeuron/assets/49937312/56f65ac7-234d-4b6c-9f38-5ffac7ca811f)
+
+![DataNeuron2](https://github.com/kiranwankhade/DataNeuron/assets/49937312/c7bbbf5f-6f01-4701-901d-f538d037de6d)
