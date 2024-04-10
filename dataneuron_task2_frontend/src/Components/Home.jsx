@@ -98,7 +98,7 @@ const Home = () => {
           color: "black",
         }}
       >
-        Reset first element's width/height
+        Reset all element's width/height
       </Button>
 
       <Box className="layoutRoot">
