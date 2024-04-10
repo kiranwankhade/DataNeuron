@@ -1,10 +1,11 @@
+import axios from 'axios';
+
 export const BASE_URL = 'https://dataneuron-backend-kp89.onrender.com';
 
 export const getData = async () => {
     try {
         const response = await fetch(`${BASE_URL}/task`);
         const data = await response.json();
-        // console.log('data:', data.Data)
         return data.Data;
       } catch (error) {
         console.error('Error getting count:', error);
@@ -27,20 +28,16 @@ export const addData = async (data) => {
       console.error('Error adding data:', error);
     }
   };
-  
+
   export const updateData = async (id, newData) => {
-    console.log('id:', id)
     console.log('newData:', newData)
     try {
-      await fetch(`${BASE_URL}/task/update/${id}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(newData)
-      });
+      const response = await axios.patch(`${BASE_URL}/task/update/${id}`, newData);
+      console.log('Update successful', response.data.task);
+      return response.data.task;
     } catch (error) {
       console.error('Error updating data:', error);
+      throw error; 
     }
   };
   
@@ -48,7 +45,7 @@ export const addData = async (data) => {
     try {
       const response = await fetch(`${BASE_URL}/task/getCount`);
       const data = await response.json();
-      return data.Data;
+      return data;
     } catch (error) {
       console.error('Error getting count:', error);
     }

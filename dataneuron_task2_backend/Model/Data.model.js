@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const dataSchema = new mongoose.Schema({
     task: String,
-    description: String
+    description: String,
 },{
     versionKey:false
 });

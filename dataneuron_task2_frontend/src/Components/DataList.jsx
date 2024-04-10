@@ -8,17 +8,6 @@ import {
   Table,
   Tbody,
   Tr,
-  Td,
-  Button,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  FormControl,
-  FormLabel,
-  Input,
 } from "@chakra-ui/react";
 
 const DataList = (data,reloadData) => {
