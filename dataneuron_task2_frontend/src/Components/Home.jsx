@@ -179,10 +179,10 @@ const Home = () => {
           className="box"
         >
           <Box>
-            <Text color={"black"} fontWeight={"bold"} fontSize={"large"}>
+            <Heading color={"black"} fontFamily={"cursive"}>
               Data List
-            </Text>
-            <Box>
+            </Heading>
+            <Box mt={"1rem"}>
               <Table
                 variant="striped"
                 colorScheme="blackAlpha"
