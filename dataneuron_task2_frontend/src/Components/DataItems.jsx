@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaPen } from "react-icons/fa";
-import { Table, Tbody, Tr, Td, Button, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalFooter, FormControl, FormLabel, Input } from "@chakra-ui/react";
-import { BASE_URL, updateData } from "../API Service/apiService";
+import { Tr, Td, Button, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalFooter, FormControl, FormLabel, Input } from "@chakra-ui/react";
+import {  updateData } from "../API Service/apiService";
 
 function DataItems(props) {
   const { id, task, description, reloadData } = props;
