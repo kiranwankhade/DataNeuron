@@ -1,10 +1,17 @@
+#DataNeuron Task1
+Resize three compnents
+## Base URL
+
+currently deployed at: [https://dataneurontask-resize.vercel.app/]
+
+
 # DataNeuron Frontend Interface
 
 The DataNeuron Frontend Interface facilitates the interaction with the backend API through a user-friendly web application. It features three primary resizable components, each dedicated to specific functionalities: adding data, displaying data with update capabilities, and showing operation counts.
 
 ## Base URL
 
-The API is currently deployed at: [https://dataneuron-task2-frontend.vercel.app/]
+currently deployed at: [https://dataneuron-task2-frontend.vercel.app/]
 
 ## Components Overview
 
