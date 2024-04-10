@@ -39,3 +39,44 @@ These counts are fetched from the backend API, offering insight into how frequen
 - **Resizable Components:** Each of the three main components is resizable, allowing the user to adjust their size according to their preference or screen real estate requirements.
 - **Reset Button:** A dedicated button is available at the top of the interface. Clicking this button resets all components to their default sizes, providing a quick way to revert to the standard layout.
 
+
+## Technologies Used
+
+- React
+- JavaScript
+- Chakra UI
+- React-Resizable
+
+## Installation
+
+To set up and run the project locally, follow these steps:
+
+**Step 1:** Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+**Step 2:** Navigate to the project directory:
+
+```bash
+cd Dil_Foods/dilfoods_frontend/
+```
+
+**Step 3:** Install the required packages:
+
+```bash
+npm install
+```
+
+**Step 4:** Run the Project:
+
+```bash
+npm run start
+```
+
+## Usage
+Once the project is running locally, you can access this in your web browser. 
+
+
+##Screens of Project:
